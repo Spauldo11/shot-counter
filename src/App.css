@@ -1,0 +1,253 @@
+.App {
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.scoreBtns{
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 0%;
+}
+.shotBtns{
+  display: flex;
+  margin-top: -50px;
+}
+
+.plusBtn {
+  background-color: rgb(40, 170, 40);
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.minusBtn {
+  background-color: rgb(170, 40, 40);
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-right: 209px;
+}
+.minus {
+  position: relative;
+  top: -57%;
+  left: 0%;
+}
+
+.scoreboard {
+  margin: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  height: 80px;
+  display: flex;
+}
+
+.shot_count {
+  margin: 0.5px;
+  margin-left: 20px;
+  margin-right: auto;
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.shots {
+  margin-left: 65px;
+  margin-right: 90px;
+  margin-top: 0px;
+  display: inline-block;
+  width: auto;
+}
+.home {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-right-width: 0px;
+  background-color: rgb(23, 84, 23);
+}
+
+.away {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-left-width: 0px;
+  background-color: rgb(0, 74, 167);
+}
+
+.teamName {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.savePct{
+  position: relative;
+  display: flex;
+  margin: 0%;
+  margin-left: 70px;
+  left: 60%;
+  top: -300px;
+}
+.savePctHeader {
+  position: relative;
+  display: flex;
+  font-size: 50px;
+}
+
+.savePctHome {
+  position: absolute;
+  display: flex;
+  font-size: 40px;
+  top: 150px;
+  left: -12%;
+  margin: 0px;
+}
+
+.savePctAway {
+  position: absolute;
+  display: flex;
+  font-size: 40px;
+  top: 150px;
+  left: 10%;
+  margin: 0px;
+}
+
+.chances {
+  position: relative;
+  left: 57.5%;
+  top: -200px;
+  margin-left: 70px;
+}
+
+.chancesHeader {
+  position: relative;
+  display: flex;
+  font-size: 50px;
+}
+
+.chancesHome {
+  position: absolute;
+  display: flex;
+  font-size: 40px;
+  margin: 0px;
+  left: -7.5%;
+}
+.chancesAway {
+  position: absolute;
+  display: flex;
+  font-size: 40px;
+  margin: 0px;
+  left: 12.5%;
+  top: 55%;
+}
+
+.resetGame {
+  position: absolute;
+  border-radius: 100%;
+  border-style: solid;
+  font-size: 50px;
+  color: rgb(255, 206, 206);
+  background-color: rgb(213, 28, 28);
+  width: 200px;
+  height: 200px;
+  top: 70%;
+  left: 2%;
+  margin-left: -1%;
+  margin-top: -1%;
+}
+#home {
+  color: rgb(0, 165, 0);
+}
+
+#away {
+  color: rgb(126, 182, 255);
+}
+
+#awayShots {
+  margin-right: 52px;
+}
+
+#awayScorePlus {
+  margin-left: 20px;
+}
+
+#homeChancePlus {
+  position: relative;
+  top: 20px;
+  left: -140px;
+}
+
+#homeChanceMinus {
+  position: relative;
+  top: 45px;
+  left: -97px;
+}
+
+#awayChancePlus {
+  position: relative;
+  top: 20px;
+  left: -210px;
+}
+
+#awayChanceMinus {
+  position: relative;
+  top: 45px;
+  left: -172px;
+}
+
+.time {
+  position: relative;
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px;
+  margin-bottom: -10%;
+  height: 100px;
+  width: 100px;
+  left: 33.5%;
+  top: -104.5px;
+  align-items: center;
+  justify-content: center;
+}
+.timer {
+  position: relative;
+  font-siZe: 24px;
+  left: 7px;
+}
+.period {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  top: -10px;
+  left: 30px;
+}
+.playBtn {
+  position: relative;
+  display: inline-block;
+  border-style: solid;
+  border-width: .1px;
+  border-radius: 100%;
+  margin: -10px;
+  height: 50px;
+  width: 50px;
+  top: -226px;
+  left: 38%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(175, 166, 192);
+}
+.timeTxt {
+  font-size: 28px;
+}
+.fullTimer {
+  margin-left: 30px;
+}
