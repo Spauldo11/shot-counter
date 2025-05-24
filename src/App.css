@@ -184,19 +184,21 @@
 #homeChancePlus {
   position: relative;
   top: 20px;
-  left: -140px;
+  left: -150px;
 }
 
 #homeChanceMinus {
   position: relative;
   top: 45px;
-  left: -97px;
+  left: -100px;
+  margin-right: 220px;
 }
 
 #awayChancePlus {
   position: relative;
   top: 20px;
   left: -210px;
+  margin-left: 50px;
 }
 
 #awayChanceMinus {
@@ -214,7 +216,7 @@
   margin-bottom: -10%;
   height: 100px;
   width: 100px;
-  left: 33.5%;
+  left: 475px;
   top: -104.5px;
   align-items: center;
   justify-content: center;
@@ -241,7 +243,7 @@
   height: 50px;
   width: 50px;
   top: -226px;
-  left: 38%;
+  left: 530px;
   color: rgb(0, 0, 0);
   background-color: rgb(175, 166, 192);
 }

@@ -148,6 +148,7 @@ let [awaySavePct, setSvPctAway] = useState(0);
   }
   return (
     <div className="App">
+      <title>Shot Counter</title>
       <div className="scoreBtns">
         <button className="plusBtn" id="homeScorePlus" onClick={() => upBtn('goal', 'home')}>+</button>
         <button className="minusBtn" id="homeScoreMinus" onClick={() => downBtn('goal', 'home')}><p className='minus'>-</p></button>
