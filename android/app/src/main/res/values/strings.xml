@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Shot Counter for Net Sports</string>
-    <string name="title_activity_main">Shot Counter for Net Sports</string>
-    <string name="package_name">com.shotcounter.app</string>
-    <string name="custom_url_scheme">com.shotcounter.app</string>
-</resources>
